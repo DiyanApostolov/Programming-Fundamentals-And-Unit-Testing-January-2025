@@ -23,10 +23,6 @@ for (int i = numbers.Length - 1; i >= 0; i--)
 // по-кратък вариант на горните 4 реда
 //numbers = numbers.Reverse().ToArray();
 
-//Console.WriteLine(string.Join(" ", reversedArray));
+Console.WriteLine(string.Join(" ", reversedArray));
 
-foreach (var item in reversedArray)
-{
-    Console.Write(item + " ");
-}
 
