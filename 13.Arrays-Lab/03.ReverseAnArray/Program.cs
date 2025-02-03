@@ -20,9 +20,11 @@ for (int i = numbers.Length - 1; i >= 0; i--)
     reversedArray[numbers.Length - i - 1] = numbers[i];
 }
 
+Console.WriteLine(string.Join(" ", reversedArray));
+
 // по-кратък вариант на горните 4 реда
 //numbers = numbers.Reverse().ToArray();
+//Console.WriteLine(string.Join(" ", numbers));
 
-Console.WriteLine(string.Join(" ", reversedArray));
 
 
